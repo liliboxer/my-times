@@ -64,7 +64,7 @@ div{
 .small {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   width: 240px;
   margin-left: 30px;
@@ -110,26 +110,24 @@ div{
 
 }
 
-.earth{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  background-repeat: no-repeat;
+.earth h2,
+.cameras h2{
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
 
 }
+.earth{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  background-repeat: no-repeat;
+
+}
+
 
 .cameras{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
   background-repeat: no-repeat;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-
-
-
 }
 
 
