@@ -3,6 +3,13 @@
 .header{
   display: flex;
   justify-content: space-between;
+  border: 1px solid grey;
+  background: white;
+  padding: 10px;
+  width: 97%;
+  position: fixed;
+  opacity: 1;
+  z-index: 10;
 }
 
 .logo{
@@ -23,7 +30,7 @@
   align-items: center;
 }
 
-span{
+.nav span{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -32,7 +39,7 @@ span{
 }
 
 
-div{
+/* div{
   border: .25px solid grey;
 }
 
@@ -41,6 +48,8 @@ div{
 .column{
   display: flex;
   justify-content: space-around;
+  padding-top: 90px;
+  z-index: 1;
 }
 
 
@@ -83,6 +92,7 @@ div{
   font-weight: bold;
   font-size: 40px;
   color: white;
+  height: 300px;
 }
 
 .cats{
@@ -103,15 +113,26 @@ div{
 
 .small_story{
   display: flex;
+  justify-content: space-between;
 }
 
+.story1{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.story2{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
 
 
 .bottom{
   display: flex;
   justify-content: space-between;
   height: 300px;
-
 }
 
 .earth h2,
@@ -123,8 +144,6 @@ div{
   display: flex;
   align-items: center;
   text-align: center;
-
-
 }
 
 
@@ -133,7 +152,6 @@ div{
   background-repeat: no-repeat;
   display: flex;
   width: 45%;
-
 }
 
 
@@ -149,4 +167,54 @@ p{
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.newsbites{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.newsbites_text p{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
+.footer{
+  display: flex;
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin-top: 50px;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer .logo{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+}
+
+.footer span{
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.footer p{
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.line2{
+  display: flex;
+  justify-content: center;
 }
